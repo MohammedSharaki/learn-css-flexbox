@@ -1,0 +1,380 @@
+body{
+    background-color: #333;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+/*----------------perant--------------*/
+.perant{
+    padding: 40px;
+    background-color: #FBF7BF;
+}
+.all{
+    background-color: #13263F;
+    padding: 40px;
+    
+}
+.speak h1{
+    color: darkorange;
+}
+.box{
+    background-color: #9CC0C1;
+    justify-content: center;
+}
+.box h1{
+    text-align: center;
+}
+.contanir{
+    margin: 50px ;
+    width: 70%;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: row;
+}
+.contanir div{
+    top: 100px;
+    color: white;
+    max-width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+.contanir1{
+    margin: 50px ;
+    width: 70%;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+.contanir1 div{
+    top: 100px;
+    color: white;
+    max-width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+.contanir2{
+    margin: 50px ;
+    width: 70%;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.contanir2 div{
+    top: 100px;
+    color: white;
+    max-width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+.contanir3{
+    margin: 50px ;
+    width: 70%;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column-reverse;
+}
+.contanir3 div{
+    top: 100px;
+    color: white;
+    height: 100px;
+    max-width: 200px;
+    padding: 10px;
+    
+}
+#wrap{
+    background-color:darkslategrey;
+    padding: 10px;
+}
+#spaek h1{
+    color: #C0E0CF;
+
+}
+#box{
+    background-color:  #9CC0C1;
+    margin: 50px;
+}
+/*-----------------child--------------------*/
+.contanir4{
+    margin: 50px ;
+    width: 70%;
+    padding: 40px;
+
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.contanir4 div{
+    width: 200px;
+    height: 100px;
+}
+.child{
+    background-color: #465961;
+    padding: 40px;
+
+}
+.box1{
+    background-color: #9CC0C1;
+}
+.contanir5{
+    margin: 50px ;
+    width: 70%;
+    padding: 40px;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.contanir5 div{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+.contanir6{
+    margin: 50px ;
+    width: 70%;
+    padding: 40px;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+
+}
+.contanir6 div{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+.contanir7{
+    margin: 50px ;
+    width: 70%;
+    padding: 40px;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+.contanir7 div{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+.contanir8{
+    margin: 50px ;
+    width: 70%;
+    padding: 40px;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+
+}
+.contanir8 div{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+.contanir9{
+    margin: 50px ;
+    width: 70%;
+    padding: 40px;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    justify-content:flex-end ;
+
+}
+.contanir9 div{
+    width: 200px;
+    height: 100px;
+}
+.contanir10{
+    margin: 50px ;
+    width: 70%;
+    padding: 40px;
+    background-color: #465961;
+    padding: 10px;
+    display: inline-flex;
+    justify-content:flex-end ;
+
+}
+.contanir10 div{
+    width: 200px;
+    height: 100px;
+}
+#all{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align:center;
+}
+
+.con{
+    margin: 100px;
+    width: 600px;
+    height:400px;
+    display: flex;
+    background-color: tomato;
+    display: flex;
+    align-items: flex-start;
+}
+.con div{
+    color: white;
+    width: 200px;
+    padding: 10px;
+}
+.con div:first-of-type{
+    background-color: blue
+}
+.con div:nth-of-type(2){
+    background-color: brown;
+}
+.con div:last-of-type{
+    background-color: cyan;
+}
+.con1{
+    width: 600px;
+    margin: 100px;
+    height:400px;
+    display: flex;
+    background-color: tomato;
+    display: flex;
+    justify-content: flex-start;
+}
+.con1 div{
+    color: white;
+    width: 200px;
+    padding: 10px;
+}
+.con1 div:first-of-type{
+    background-color: blue
+}
+.con1 div:nth-of-type(2){
+    background-color: brown;
+}
+.con1 div:last-of-type{
+    background-color: cyan;
+}
+.con2{
+    width: 600px;
+    margin: 100px;
+    height:400px;
+    display: flex;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+}
+.con2 div{
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+.con2 div:first-of-type{
+    background-color: blue
+}
+.con2 div:nth-of-type(2){
+    background-color: brown;
+}
+.con2 div:last-of-type{
+    background-color: cyan;
+}
+.con3{
+    width: 600px;
+    margin: 100px;
+    height:400px;
+    display: flex;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+}
+.con3 div{
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+.con3 div:first-of-type{
+    background-color: blue
+}
+.con3 div:nth-of-type(2){
+    background-color: brown;
+}
+.con3 div:last-of-type{
+    background-color: cyan;
+}
+.con5{
+    width: 800px;
+    margin: 100px;
+    height:400px;
+    display: flex;
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.con5 div{
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+.con5 div:first-of-type{
+    background-color: blue
+}
+.con5 div:nth-of-type(2){
+    background-color: brown;
+}
+.con5 div:last-of-type{
+    background-color: cyan;
+}
+/*all elemants*/
+
+
+
+
+
+
+
+
+.div1{
+    background-color: red;
+    width: 100%;
+}
+.div2{
+    background-color: blue;
+    width: 100%;
+}
+.div3{
+    background-color: yellow;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+.order{
+    color: chocolate;
+    font-size: 50px;
+    text-align: center;
+}
